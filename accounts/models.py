@@ -1,5 +1,5 @@
 from django.db import models
-from sp_models import BaseModel
+from .sp_models import BaseModel
 
 # Create your models here.
 class Patient(BaseModel):
